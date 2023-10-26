@@ -1,0 +1,598 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697607276352991, "dur": 1167407, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607276353151, "dur": 6214, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607276359367, "dur": 31532, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607276390901, "dur": 658175, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607277049079, "dur": 457001, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607277506082, "dur": 14315, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607277520823, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697607276826858, "dur": 201432, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607276827574, "dur": 36683, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607277017440, "dur": 3237, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607277020679, "dur": 7606, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607277021104, "dur": 6755, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607277031084, "dur": 941, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697607277030541, "dur": 1508, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607277520930, "dur": 169, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697607277079800, "dur":595, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277080401, "dur":58, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697607277080481, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697607277080497, "dur":387, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697607277080901, "dur":463, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277081364, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489064, "dur":270, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489334, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489353, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489358, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489368, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489370, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489376, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489379, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489386, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489388, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489394, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489397, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489402, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489405, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489410, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489413, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489418, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489420, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489426, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489428, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489433, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489435, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489441, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489444, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489449, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489452, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489458, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489461, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489466, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489469, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489474, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489477, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489482, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489501, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277489527, "dur":936, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697607277081104, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277081376, "dur":1233, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277082617, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697607277082622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277083151, "dur":171, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697607277083326, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697607277083343, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277083542, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697607277085549, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697607277085591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277086005, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697607277087089, "dur":78032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697607277165128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697607277165245, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697607277168240, "dur":320846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277081134, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277081381, "dur":1233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277082617, "dur":8478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1697607277091099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277091208, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1697607277093125, "dur":32798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War.exe" }}
+,{ "pid":12345, "tid":2, "ts":1697607277125926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277125933, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War.exe" }}
+,{ "pid":12345, "tid":2, "ts":1697607277128100, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697607277128549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277128560, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.DirectoryServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697607277132368, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697607277133042, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277133051, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Novell.Directory.Ldap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697607277136903, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1697607277136962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697607277136967, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1697607277139090, "dur":349967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697607277081246, "dur":167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697607277081413, "dur":1240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697607277082655, "dur":8546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1697607277091203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697607277091370, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1697607277092358, "dur":75612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1697607277167977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697607277167987, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1697607277169201, "dur":319867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277081217, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277081408, "dur":1205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277082617, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697607277082676, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277091406, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1697607277093885, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277094311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277094533, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277097159, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277097496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277097502, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277100240, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277100640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277100647, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277102891, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277103194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277103199, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277105822, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277106132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277106158, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277108805, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277109067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277109073, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277112711, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277113161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277113167, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277116274, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277117061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277117067, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277121496, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.DurableInstancing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277122054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277122093, "dur":6951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.DurableInstancing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277129056, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277129372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277129379, "dur":5541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Configuration.Install.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277134934, "dur":925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Messaging.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277135864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697607277135875, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Messaging.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697607277139511, "dur":349549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277081180, "dur":217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277081397, "dur":1213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277082617, "dur":31687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1697607277114308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277114702, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1697607277115743, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277116127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277116134, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277118313, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277118608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277118615, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277122104, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277122700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277122706, "dur":6566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277129289, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277129894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277129902, "dur":6497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ComponentModel.DataAnnotations.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697607277136414, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1697607277136428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277136489, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1697607277137617, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697607277137630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697607277137636, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1697607277140696, "dur":348384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277081205, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277081404, "dur":1208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277082617, "dur":8629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697607277091250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277091270, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1697607277093583, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1697607277093613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277093935, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1697607277098405, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277098784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277098791, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277101657, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277102199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277102206, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277104477, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277104799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277104805, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277107105, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277107493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277107499, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277110456, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277110766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277110773, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277112647, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277112936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277112942, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277116282, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277116720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277116727, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277119850, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.Activation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277120138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277120148, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.Activation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277122692, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Messaging.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277123051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277123057, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Messaging.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277127740, "dur":3757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277131500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277131509, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277135460, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277135874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697607277135879, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697607277139783, "dur":349278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277081316, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277081430, "dur":1238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277082668, "dur":9099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697607277091771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277091791, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697607277093865, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277094322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277094625, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277096867, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277097435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277097442, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277100403, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277100784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277100790, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277102829, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277103150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277103178, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277105939, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277106212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277106218, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277108652, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277108928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277108934, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277111760, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277112173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277112179, "dur":2647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277114836, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277115975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277115985, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277118700, "dur":2794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277121497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277121503, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277125204, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IdentityModel.Selectors.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277125537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277125543, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IdentityModel.Selectors.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277128888, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277129262, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277129273, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277133056, "dur":6621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277139680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697607277139688, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697607277142298, "dur":346780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277081274, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277081419, "dur":1192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277082617, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697607277082655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277084039, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1697607277085641, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1697607277085665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277085804, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1697607277087063, "dur":45028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697607277132095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277132455, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697607277133756, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697607277134302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277134310, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697607277138444, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1697607277138455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697607277138460, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1697607277140433, "dur":348650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277081302, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277081426, "dur":1217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277082646, "dur":8448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1697607277091100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277091447, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1697607277093965, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277094341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277094646, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277097230, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277097631, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277097638, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277099436, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277099794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277099804, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277102245, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277102519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277102526, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277105166, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277105581, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277105609, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277108416, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277108821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277108827, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277111756, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277112020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277112028, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277114087, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277114442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277114449, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277116969, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277118306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277118317, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.Services.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277121315, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277121753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277121759, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277125912, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IdentityModel.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277126407, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277126420, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IdentityModel.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277129094, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277129491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277129497, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277133332, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277133858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277133868, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.WebBrowser.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697607277138298, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1697607277138310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697607277138316, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1697607277140467, "dur":348617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277081358, "dur":77, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277081435, "dur":1216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277082652, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1697607277082688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277092030, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1697607277093971, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277094346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277094669, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277097478, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277098004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277098013, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277100548, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277101103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277101109, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277103369, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277103828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277103837, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277106529, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277107071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277107080, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277109753, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277110164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277110171, "dur":2420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277112603, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277112953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277112959, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277115860, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277116263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277116269, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277118607, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277119489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277119499, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277121923, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277122305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277122311, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277126260, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277127270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277127279, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277131170, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/protobuf-net.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277131819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277131827, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/protobuf-net.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277135338, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277135880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697607277135886, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697607277139655, "dur":349403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277081382, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277081383, "dur":1233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277082617, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1697607277082683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277091775, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1697607277093588, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277093991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277094114, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277095160, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277095580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277095589, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277098260, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277098690, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277098711, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277101507, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277101867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277101876, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277104141, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277104654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277104662, "dur":2424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277107111, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277107537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277107544, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277110534, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277110906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277110912, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277113380, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277113741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277113747, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277116377, "dur":5050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277121430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277121437, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277125032, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277125507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277125518, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277128638, "dur":3192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277131853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277131858, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697607277136427, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697607277136440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277136445, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1697607277138738, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1697607277138764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697607277138769, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1697607277141124, "dur":347969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277081430, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277081431, "dur":1219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277082651, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697607277082691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277091874, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1697607277094094, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277094364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277094370, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277096658, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277096973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277096983, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277098351, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277098671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277098677, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277101618, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277101963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277101970, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277105125, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277105521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277105528, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277108824, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277109376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277109384, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277112072, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277112489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277112495, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277114733, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277115399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277115407, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277118000, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277118318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277118325, "dur":3014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.ApplicationServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277121354, "dur":1703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277123060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277123066, "dur":5938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277129016, "dur":2149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277131168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277131181, "dur":5311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697607277136509, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697607277136527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277136531, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697607277138094, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697607277138104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697607277138110, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697607277140945, "dur":348130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277081470, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277081470, "dur":1195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277082667, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1697607277082714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277091978, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1697607277094013, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277094327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277094630, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277097290, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277097627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277097635, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277099184, "dur":2138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277101325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277101334, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277104197, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277104661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277104668, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277107664, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277108265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277108288, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277110843, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277111196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277111203, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277113161, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277113523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277113529, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277116951, "dur":4726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277121680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277121686, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277126138, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277126614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277126620, "dur":7687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277134324, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277134848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277134858, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Mono.Posix.dll" }}
+,{ "pid":12345, "tid":13, "ts":1697607277139011, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1697607277139049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1697607277139054, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1697607277141433, "dur":347648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277081497, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277081497, "dur":1135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277082634, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1697607277082662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277091466, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1697607277093771, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277094209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277094368, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277096801, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277097150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277097158, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277099374, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277099983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277099990, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277102584, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277102889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277102896, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277105377, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277105641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277105647, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277108105, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277108355, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277108370, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277110792, "dur":2161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277112956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277112962, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277116680, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xaml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277117371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277117405, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Xaml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277120204, "dur":1030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277121240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277121251, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277123300, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277123824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277123832, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277127396, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277127741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277127749, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Drawing.Design.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277131152, "dur":748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277131903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277131909, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277136233, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277136538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1697607277136544, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":14, "ts":1697607277140024, "dur":349048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277081526, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277081526, "dur":1097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277082626, "dur":8824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1697607277091453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277091498, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1697607277093603, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277094017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277094131, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277095451, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277095819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277095826, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277098125, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277098661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277098671, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277101989, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277102521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277102527, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277105410, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277105841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277105848, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277108527, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277108880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277108885, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277111853, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277112159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277112166, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277114468, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277114765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277114772, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277117364, "dur":4924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277122292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277122299, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Web.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277128161, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277128889, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277128944, "dur":3517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/System.Design.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277132474, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277132953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277132963, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1697607277136935, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1697607277137006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277137012, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1697607277139047, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1697607277139130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1697607277139135, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/Multiplayer-Online-Tank-War_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1697607277141378, "dur":347696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277081559, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277081559, "dur":1056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277082619, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1697607277082659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277083913, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1697607277085759, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1697607277085780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277085806, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1697607277087205, "dur":393090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697607277480299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1697607277480307, "dur":8682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nakato/Desktop//Games/MutiPlayer_Tank_War/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1697607277489007, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":16, "ts":1697607277489010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697607277491352, "dur":1159, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697607277521150, "dur": 628, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697607277520810, "dur": 982, "ph": "X", "name": "Write chrome-trace events", "args": {} },

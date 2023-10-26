@@ -1,0 +1,18 @@
+message MsgRegister
+{
+	string id = "";
+	string pw = "";
+	int32 result = 0;
+}
+
+message MsgLogin
+{
+	string id = "";
+	string pw = "";
+	int32 result = 0;
+}
+
+message MsgKick
+{
+	int32 reson = 0;
+}
